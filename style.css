@@ -470,6 +470,10 @@ font-family: 'Courgette', cursive;
     }
   }
 
+  .menu-mobile{
+      border-radius: 10px 10px 0 0;
+  }
+
 .menu-mobile .text{
     color: white;
 }
