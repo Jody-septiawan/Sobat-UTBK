@@ -247,20 +247,22 @@ font-family: 'Courgette', cursive;
     cursor: pointer;
 }
 
-.answer1{
+.question p{
+    display: none;
+}
+
+/* .answer1{
     display: none;
     font-style: italic;
 }
 .answer2{
     display: none;
     font-style: italic;
-
 }
 .answer3{
     display: none;
     font-style: italic;
-
-}
+} */
 
 /* TESTI */
 .container-testi {
@@ -474,7 +476,7 @@ font-family: 'Courgette', cursive;
 
 .menu-mobile a:hover{
     text-decoration: none;
-    color: rgb(0, 0, 53));
+    color: rgb(0, 0, 53);
 }
 
 @media only screen and (max-width: 767px) {
