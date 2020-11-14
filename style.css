@@ -495,9 +495,6 @@ font-family: 'Courgette', cursive;
     .video img{
         display: none;
     }
-
-    
-
   }
 
   @media only screen and (max-width: 575px) {
@@ -530,3 +527,51 @@ font-family: 'Courgette', cursive;
   .card-promo{
       margin-bottom: 20px;
   }
+
+  @media only screen and (min-width: 1226px) {
+    .whatsapp img{
+        width: 5%;
+        bottom: 10px !important;
+        right: 10px !important;
+    }
+}
+
+  
+  @media only screen and (max-width: 1225px) {
+    .whatsapp img{
+        width: 15%;
+        bottom: 10px !important;
+        right: 10px !important;
+    }
+}
+
+  @media only screen and (max-width: 1024px) {
+    .whatsapp img{
+        width: 15%;
+        bottom: 80px !important;
+        right: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .whatsapp img{
+        width: 20%;
+        bottom: 80px !important;
+        right: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .whatsapp img{
+        width: 20%;
+        bottom: 70px !important;
+        right: 0px !important;
+    }
+}
+  
+@media only screen and (max-width: 400px) {
+    .whatsapp img{
+        width: 20%;
+        bottom: 60px !important;
+    }
+}
